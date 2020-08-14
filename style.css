@@ -1,0 +1,51 @@
+h1{
+    color:whitesmoke;
+    border: solid;
+    margin: 20px;
+    padding: 10px;
+}
+.Class1{
+    background-color: rosybrown;
+    display:flex;
+    justify-content: space-between;
+    margin: 50 px;
+}
+.menu{
+    font-style: italic;
+    color: whitesmoke;
+}
+h2,p{
+    font-size: large;
+    font-style: italic;
+    color:pink;
+    text-align: center;
+}
+.Grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.menu{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position: relative;
+}
+.item h3{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-100%,-50%);
+}
+Body{
+    background-color: black;
+}
+h3{
+    color:whitesmoke;
+    text-align:justify;
+    text-underline-position: below;
+}
